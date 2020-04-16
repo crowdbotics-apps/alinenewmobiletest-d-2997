@@ -25,6 +25,7 @@ class CustomText(models.Model):
 
 class HomePage(models.Model):
     body = models.TextField()
+    another_field = models.BooleanField(null=True, blank=True,)
 
     @property
     def api(self):
