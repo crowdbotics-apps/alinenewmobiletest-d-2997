@@ -6,7 +6,6 @@ import SplashScreen from "../features/SplashScreen";
 import SideMenu from './sideMenu';
 //@BlueprintImportInsertion
 import UserProfile3523Navigator from '../features/UserProfile3523/navigator';
-import UserProfile3522Navigator from '../features/UserProfile3522/navigator';
 import UserProfile3520Navigator from '../features/UserProfile3520/navigator';
 
 /**
@@ -19,7 +18,6 @@ const AppNavigator = {
     },
     //@BlueprintNavigationInsertion
 UserProfile3523: { screen: UserProfile3523Navigator },
-UserProfile3522: { screen: UserProfile3522Navigator },
 UserProfile3520: { screen: UserProfile3520Navigator },
 
     /** new navigators can be added here */
